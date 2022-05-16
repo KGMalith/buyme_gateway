@@ -8,5 +8,6 @@ router.use('/wishlist', proxy('http://localhost:4002'));
 router.use('/cart', proxy('http://localhost:4003'));
 router.use('/product', proxy('http://localhost:4004'));
 router.use('/order', proxy('http://localhost:4005'));
+router.use('/feedback', proxy('http://localhost:4006'));
 
 module.exports = router;
